@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — K.A.NIKINI PERERA</title>
+
+<style>
+/* ---- Global styles ---- */
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:linear-gradient(135deg,#c0e6ff,#f3e7ff);
+  color:#333;
+  line-height:1.6;
+}
+
+/* ---- Wrapper ---- */
+.container{
+  max-width:1000px;
+  margin:40px auto;
+  background:#ffffffcc;
+  backdrop-filter: blur(4px);
+  padding:30px;
+  border-radius:16px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.1);
+}
+
+/* ---- Header ---- */
+header{
+  text-align:center;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  font-size:2.5rem;
+  color:#4a148c;
+}
+header .meta{
+  font-size:1rem;
+  color:#555;
+  margin-top:8px;
+}
+
+/* ---- Photo ---- */
+.photo{
+  display:flex;
+  justify-content:center;
+  margin:25px 0;
+}
+.photo img{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+  border-radius:50%;
+  border:6px solid #4a148c33;
+  box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ---- Sections ---- */
+section{
+  margin-bottom:28px;
+}
+section h2{
+  font-size:1.4rem;
+  color:#4a148c;
+  border-left:6px solid #4a148c;
+  padding-left:10px;
+  margin-bottom:10px;
+}
+ul{
+  padding-left:22px;
+  margin:0;
+}
+p{margin:0 0 10px 0}
+
+/* ---- Buttons and links ---- */
+a.btn{
+  display:inline-block;
+  background:#4a148c;
+  color:#fff;
+  padding:10px 18px;
+  margin-top:8px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  transition:background 0.3s;
+}
+a.btn:hover{
+  background:#6a1b9a;
+}
+.contact a{
+  color:#4a148c;
+  text-decoration:none;
+  font-weight:500;
+}
+.contact a:hover{text-decoration:underline}
+
+/* ---- Footer ---- */
+footer{
+  text-align:center;
+  font-size:0.9rem;
+  color:#666;
+  border-top:1px solid #ddd;
+  padding-top:15px;
+  margin-top:35px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <h1>YOUR NAME</h1>
+    <div class="meta">
+      BSc (Hons) in Biotechnology — SC1172: Introduction to Information Technology<br>
+      Student ID: HS25510059
+    </div>
+  </header>
+
+  <!-- Profile Photo -->
+  <div class="photo">
+    <img src="photo1.jpg" alt="My photo">
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a first-year BSc (Hons) Biotechnology student at [Sri Lanka Institute of Information Technology].
+    I’m interested in molecular biology and enjoy teamwork and science communication.</p>
+  </section>
+
+  <section>
+    <h2>Educational Qualifications</h2>
+    <ul>
+      <li>High School — A/L in Science Stream (2023)</li>
+      <li>Currently: BSc (Hons) in Biotechnology — [Sri Lanka Institute of Information Technology], </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Other Skills</h2>
+    <ul>
+      <li>Microsoft Word, PowerPoint</li>
+      <li>Basic HTML, GitHub Pages</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Resume</h2>
+    <p>If you uploaded a resume, click below:</p>
+    <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nikini.u.perera@gmail.com">nikini.u.perera@gmail.com</a></p>
+  </section>
+
+  <footer>
+    Portfolio created for SC1172 — Introduction to Information Technology.
+  </footer>
+
+</div>
+</body>
+</html>
